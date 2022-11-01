@@ -10,7 +10,7 @@ import Home from "./routes/Home";
 function App() {
   return <Router>
     <Routes>
-      <Route path="/movie" element={<Detail />}></Route>
+      <Route path="/movie/:id" element={<Detail />}></Route>
       <Route path="/" element={<Home />}>
         
       </Route>
